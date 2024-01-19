@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 5 - Solution</title>
+    <style>
+        
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  height: 200px;
+}
+
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  background-color: blueviolet;
+}
+
+header nav ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 10px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+a:hover {
+  background-color: #ACC3A6;
+  transition: all ease 0.5s;
+  color: rgb(32, 32, 32);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  background-color: rgb(32, 32, 32);
+}
+
+.boxes {
+  display: flex;
+  background-color: #ACC3A6;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5D6BA;
+  height: 30vh;
+  width: 200vh;
+  margin: 40px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+p {
+  padding: 20px;
+}
+
+main .box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F49D6E;
+  height: 30vh;
+  width: 200vh;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.container {
+  height: 40vh;
+  width: 100%;
+  background-color: #2C2C54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  color: white;
+  display: flex;
+  background-color: #A40E4C;
+  width: 800px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+footer {
+  height: 10vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.fixed-icon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About Us</li></a>
+          <a href="#"><li>Contact Us</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="fixed-icon">
+        
+    </div>
+
+    <main>
+      <div class="boxes">
+        <div class="box1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            sit amet doloremque vitae expedita, dignissimos quisquam aut quia
+            corporis praesentium, veniam officiis ipsum quis nihil vero possimus
+            ex ducimus neque assumenda mollitia corrupti voluptate deleniti
+            incidunt. Exercitationem iusto tempore quia et accusantium,
+            doloribus beatae eius fugiat laboriosam necessitatibus
+            reprehenderit, esse modi. Suscipit pariatur placeat tempora!
+          </p>
+        </div>
+
+        <div class="box2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            sit amet doloremque vitae expedita, dignissimos quisquam aut quia
+            corporis praesentium, veniam officiis ipsum quis nihil vero possimus
+            ex ducimus neque assumenda mollitia corrupti voluptate deleniti
+            incidunt. Exercitationem iusto tempore quia et accusantium,
+            doloribus beatae eius fugiat laboriosam necessitatibus
+            reprehenderit, esse modi. Suscipit pariatur placeat tempora!
+          </p>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="welcome">
+            <p>Welcome to SIGMA Web Development Express!</p>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <p>Made by Sandesh</p>
+        </div>
+    </footer>
+  </body>
+</html>
